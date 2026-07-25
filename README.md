@@ -268,12 +268,38 @@
             font-weight: 600;
             text-decoration: none;
             transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .btn-secondary:hover {
             background: rgba(255, 255, 255, 0.12);
             border-color: rgba(255, 255, 255, 0.3);
             transform: translateY(-2px);
+        }
+
+        .btn-price {
+            background: rgba(6, 182, 212, 0.1);
+            border: 1px solid var(--primary-cyan);
+            color: var(--primary-cyan);
+            padding: 1rem 2.2rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-price:hover {
+            background: rgba(6, 182, 212, 0.2);
+            border-color: var(--primary-cyan);
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.3);
         }
 
         /* Features Section */
@@ -604,8 +630,11 @@
         <h1>Transforme seguidores em clientes com um <span class="highlight">Site Profissional</span></h1>
         <p>Desenvolvimento web moderno, rápido e adaptado para celulares. A estrutura que faltava para passar credibilidade e vender mais no seu negócio.</p>
         <div class="hero-cta">
-            <a href="https://wa.me/5511921934699?text=Ol%C3%A1%2C%20quero%20aproveitar%20a%20promo%C3%A7%C3%A3o%20de%20R%2450!" target="_blank" class="btn-primary">
+            <a href="https://wa.me/5511921934699?text=Ol%C3%A1%2C%20quero%20aproveitar%20a%20promo%C3%A7%C3%A3o%20de%20R%2449%2C99!" target="_blank" class="btn-primary">
                 <i class="fa-brands fa-whatsapp"></i> Garantir Meu Site Agora
+            </a>
+            <a href="#preco" class="btn-price">
+                <i class="fa-solid fa-tag"></i> Ver Preços
             </a>
             <a href="#exemplos" class="btn-secondary">Ver Exemplos</a>
         </div>
@@ -692,7 +721,7 @@
 
             <div class="price-container">
                 <span class="old-price">R$ 400</span>
-                <span class="current-price">R$ 50<span>,00</span></span>
+                <span class="current-price">R$ 49<span>,99</span></span>
             </div>
 
             <ul class="pricing-features">
@@ -703,8 +732,8 @@
                 <li><i class="fa-solid fa-circle-check"></i> Entrega Rápida em poucos dias</li>
             </ul>
 
-            <a href="https://wa.me/5511921934699?text=Quero%20aproveitar%20o%20desconto%20de%2087.5%25%20no%20meu%20primeiro%20site%20por%20R%2450!" target="_blank" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
-                <i class="fa-brands fa-whatsapp"></i> Quero meu site por R$ 50
+            <a href="https://wa.me/5511921934699?text=Quero%20aproveitar%20o%20desconto%20de%2087.5%25%20no%20meu%20primeiro%20site%20por%20R%2449%2C99!" target="_blank" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
+                <i class="fa-brands fa-whatsapp"></i> Quero meu site por R$ 49,99
             </a>
         </div>
     </section>
