@@ -712,7 +712,7 @@
         </div>
 
         <div class="pricing-card">
-            <div class="promo-badge">🔥 Oferta do Primeiro Site</div>
+            <div class="promo-badge">🔥 Oferta Primeiro Site</div>
             <div class="discount-tag">87,5% DE DESCONTO</div>
             
             <h3>Landing Page Profissional Completa</h3>
